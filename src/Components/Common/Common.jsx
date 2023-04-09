@@ -18,16 +18,22 @@ const Common = () => {
             View Business Men
           </Link>
           <Link
-            to=""
+            to="/blogs"
             className="hover:text-green-400 border rounded-xl py-2 lg:border-none"
           >
             Blogs
           </Link>
           <Link
-            to=""
+            to="feedback"
             className="hover:text-green-400 border rounded-xl py-2 lg:border-none"
           >
             Feedback
+          </Link>
+          <Link
+            to="donate"
+            className="hover:text-green-400 border rounded-xl py-2 lg:border-none"
+          >
+            Donations
           </Link>
         </nav>
         <Outlet></Outlet>
